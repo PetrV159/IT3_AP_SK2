@@ -16,7 +16,7 @@ class Zvire:
     
     def JdiNa(self, nMisto:str):
         self.misto = nMisto
-        return f"Šel jsem na {nMisto}"
+        return f"Šel jsem do {nMisto}"
 
 zvire = Zvire("Pepa", 42,)
 print(zvire.jmeno)
